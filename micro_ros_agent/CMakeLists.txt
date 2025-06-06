@@ -41,6 +41,11 @@ find_package(rmw REQUIRED)
 find_package(rcutils REQUIRED)
 find_package(rmw_fastrtps_shared_cpp REQUIRED)
 
+find_package(rcl REQUIRED)
+find_package(titan_canmore REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(riptide_msgs2 REQUIRED)
+
 find_package(ament_lint_auto REQUIRED)
 
 find_package(rosidl_typesupport_fastrtps_cpp REQUIRED)
