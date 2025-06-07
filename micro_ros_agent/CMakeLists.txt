@@ -78,6 +78,10 @@ ament_target_dependencies(${PROJECT_NAME}
   rmw
   rmw_fastrtps_shared_cpp
   micro_ros_msgs
+  rcl
+  titan_canmore
+  std_msgs
+  riptide_msgs2
   )
 
 target_link_libraries(${PROJECT_NAME}
