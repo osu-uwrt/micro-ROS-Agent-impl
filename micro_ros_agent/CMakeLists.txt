@@ -44,7 +44,7 @@ find_package(rmw_fastrtps_shared_cpp REQUIRED)
 find_package(rcl REQUIRED)
 find_package(titan_canmore REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(riptide_msgs2 REQUIRED)
+find_package(mercury_msgs REQUIRED)
 
 find_package(ament_lint_auto REQUIRED)
 
@@ -81,7 +81,7 @@ ament_target_dependencies(${PROJECT_NAME}
   rcl
   titan_canmore
   std_msgs
-  riptide_msgs2
+  mercury_msgs
   )
 
 target_link_libraries(${PROJECT_NAME}
